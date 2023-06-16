@@ -1,0 +1,27 @@
+
+footer {
+    @include flex;
+    background-color: $color-principal;
+    padding: 1rem;
+  }
+  
+  .iconos {
+    @include flex;
+
+  a{
+    display: inline-block;
+    margin: 0 0.5rem;
+    }
+
+  img {
+    width: 5rem;
+    height: 5rem;
+    transform: scale(1);
+    transition: color 0.5s ease, background-color 0.5s ease, transform 0.5s ease;
+    }
+
+  img:hover {
+    color: antiquewhite;
+    transform: scale(1.4);
+    }
+  }
